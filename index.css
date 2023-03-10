@@ -1,0 +1,149 @@
+/* Сброс стилей для всего документа */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* Сброс стилей для заголовков */
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Сброс стилей для списков */
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Сброс стилей для ссылок */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Сброс стилей для изображений */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Сброс стилей для кнопок */
+
+button, input[type="submit"], input[type="reset"] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* Сброс стилей для форм */
+
+input, textarea, select {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+body {
+    background-image: url("assets/bg-Img/bg-desc.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #E4E5EA;
+}
+
+.wrapper-container {
+    width: 1140px;
+    height: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-block {
+    margin-right: 51px;
+}
+
+.logo-text {
+    font-size: .7em;
+    width: 141px;
+    margin-top: 7px;
+    font-weight: lighter;
+}
+
+navigation {
+    width: 503px;
+    height: 19px;
+}
+
+navigation ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 26px;
+}
+
+.wrapper-logo-navigation {
+    display: flex;
+}
+
+/* блок контактов */
+.contacts-list {
+    display: flex;
+}
+
+
+
+/*.contacts-list li:not(:last-child) {*/
+/*    margin-right: 28px;*/
+/*}*/
+
+.contacts-list li a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+.contacts-list li a img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.phone-number {
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.8px;
+    margin-right: 20px;
+}
+
+.icon {
+    margin-left: 29px;
+}
+
+
+
+
