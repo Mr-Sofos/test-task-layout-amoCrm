@@ -74,6 +74,8 @@ body {
     margin: 0 auto;
 }
 
+/* styles for header */
+
 .header {
     margin-top: 57px;
     display: flex;
@@ -106,16 +108,23 @@ navigation ul {
     display: flex;
 }
 
-/* блок контактов */
 .contacts-list {
     display: flex;
 }
 
+li:first-child {
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.8px;
+    margin-right: 20px;
+}
 
-
-/*.contacts-list li:not(:last-child) {*/
-/*    margin-right: 28px;*/
-/*}*/
+.contacts-list li:not(:first-child) {
+    margin-left: 29px;
+}
 
 .contacts-list li a {
     display: inline-block;
@@ -130,19 +139,8 @@ navigation ul {
     object-fit: contain;
 }
 
-.phone-number {
-    font-family: Inter, serif;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 23px;
-    text-align: right;
-    letter-spacing: 0.8px;
-    margin-right: 20px;
-}
+/* styles for main */
 
-.icon {
-    margin-left: 29px;
-}
 
 
 
