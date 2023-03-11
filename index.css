@@ -83,7 +83,7 @@ body {
 }
 
 .logo-block {
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
 .logo-text {
@@ -112,7 +112,7 @@ navigation ul {
     display: flex;
 }
 
-li:first-child {
+.contacts-list li:first-child {
     font-family: Inter, serif;
     font-size: 16px;
     font-weight: 500;
@@ -140,6 +140,215 @@ li:first-child {
 }
 
 /* styles for main */
+
+.main-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header {
+    width: 362px;
+    height: 116px;
+    margin-top: -8px;
+    letter-spacing: -0.3px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #E4E5EA;
+}
+
+.welbex-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: -0.3px;
+}
+
+.desc {
+    width: 275px;
+    height: 44px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #E4E5EA;
+}
+
+.main-content-right {
+    width: 300px;
+}
+
+.main-content-right-desc {
+    width: 291px;
+    height: 44px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 8.1px;
+    margin-left: 9px;
+    margin-bottom: 40px;
+}
+
+.main-content-right-desc span {
+    background: linear-gradient(to right, #FCB045, #FD1D1D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1em;
+    letter-spacing: 1.13px;
+}
+
+.gifts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gift {
+    width: 149px;
+}
+
+.widgets {
+    width: 136px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}
+
+.widget-desc {
+    width: 135px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.dashboard {
+    width: 150px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}
+
+.dashboard-desc{
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.skype-audit {
+    width: 137px;
+    height: 22px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+}
+
+.skype-audit-desc{
+    width: 135px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.thirty-five-days{
+    width: 151px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #E4E5EA;
+    margin-top: 30px;
+}
+
+.thirty-five-days-desc{
+    width: 150px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    text-align: right;
+    color: #E4E5EA;
+    margin-top: 6px;
+}
+
+.btn-consultation {
+    width: 262px;
+    height: 61px;
+    background: #4177f3;
+    margin-top: 61px;
+    margin-left: 38px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    color: #E4E5EA;
+}
+
+/* Styles for footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 123px;
+}
+
+.wrapper-menus {
+    display: flex;
+}
+
+.about-company h2 {
+    color: #4a494b;
+    margin-bottom: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.7px;
+}
+
+.about-company ul li {
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+
 
 
 
