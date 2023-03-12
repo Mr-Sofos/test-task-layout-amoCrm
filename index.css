@@ -573,6 +573,7 @@ u {
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #656566;
+        margin-bottom: 22px;
     }
 
     .footer-menu h2 {
@@ -659,6 +660,11 @@ u {
 
     .copyright-text {
         letter-spacing: 0.3px;
+    }
+
+    .about-company ul li {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
     }
 }
 
